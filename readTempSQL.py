@@ -11,7 +11,7 @@ os.system('modprobe w1-therm')
 temp_sensor = '/sys/bus/w1/devices/28-0317714266ff/w1_slave'
  
 
-db = MySQLdb.connect(host="localhost", user="root",passwd="Trine11271991", db="temp_database")
+db = MySQLdb.connect(host="localhost", user="root",passwd="*********", db="temp_database")
 cur = db.cursor()
 
 base_dir = '/sys/bus/w1/devices/'
